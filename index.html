@@ -9,9 +9,64 @@
     <script src = "./public/bootstrap/js/bootstrap.min.js"></script>
   </head>
   <body>
+
+    <nav class="navbar navbar-inverse navbar-static-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Bootstrap Learning</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="page1.html">Page 1</a></li>
+          <li><a href="#">Page 2</a></li>
+          <li><a href="#">Page 3</a></li>
+        </ul>
+      </div>
+    </nav>
+
     <div class="container">
-      <h1> Hello World! </h1>
-      <p>Some text</p>
+      <div class = "jumbotron">
+        <h1> Welcome to my bootstrap tutorial! </h1>
+        <p> Doesn't it look pretty? </p>
+      </div>
     </div>
+
+    <div class = "row">
+      <div class = "col-sm-6">
+        <blockquote>
+          <p> "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that."</p>
+          <footer> Martin Luther King Jr. </footer>
+        </blockquote>
+      </div>
+      <div class = "col-sm-6">
+        <blockquote>
+          <p> "Logic is the beginning of wisdom, not the end" </p>
+          <footer> Spock </footer>
+        </blockquote>
+      </div>
+    </div>
+
+    <div class = "well">
+      <p> This is a well, it adds a round border. </p>
+    </div>
+
+    <div class="container">
+      <div class = "row">
+        <div class = "col-sm-2">
+          <button type = "button" class = "btn btn-default"> I'm a button, push me.</button>
+        </div>
+        <div class = "col-sm-2">
+          <a href="https://www.google.com" class = "btn btn-default" role = "button"> I'm a linked button! </a>
+        </div>
+        <div class = "col-sm-8">
+          <div class = "well well-sm">
+            And I'm a well!
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
   </body>
 </html>
